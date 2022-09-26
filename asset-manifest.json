@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/abha/static/css/main.0be8eab7.css",
+    "main.js": "/abha/static/js/main.310afe6f.js",
+    "static/media/logo.png": "/abha/static/media/logo.61e11c2ea91e83f3f1c9.png",
+    "index.html": "/abha/index.html",
+    "main.0be8eab7.css.map": "/abha/static/css/main.0be8eab7.css.map",
+    "main.310afe6f.js.map": "/abha/static/js/main.310afe6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0be8eab7.css",
+    "static/js/main.310afe6f.js"
+  ]
+}
