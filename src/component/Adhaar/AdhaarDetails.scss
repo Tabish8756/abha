@@ -1,0 +1,48 @@
+
+// $char-w: 5.2ch;
+// $gap: 0.10*$char-w;
+// $n-char: 3;
+// $in-w: $n-char*($char-w + $gap);
+
+
+.number input {
+    $char-w: 5.2ch;
+$gap: 0.10*$char-w;
+$n-char: 3;
+$in-w: $n-char*($char-w + $gap);
+	// display: flex;
+    // justify-content: center;
+	// margin: 2em 30px ;
+	border: none;
+    margin-left: 25px;
+	// padding: 0;
+	// // width: $in-w;
+    width: 100%;
+	background: repeating-linear-gradient(90deg, 
+		dimgrey 0, dimgrey $char-w, 
+		transparent 0, transparent $char-w + $gap) 
+		0 100%/ #{$in-w - $gap} 2px no-repeat;
+	font: 4ch droid sans mono, consolas, monospace;
+	// letter-spacing: $gap;
+	letter-spacing:8px;
+	
+	&:focus {
+		outline: none;
+		color: dodgerblue;
+	}
+}
+.consent{
+    display: flex;
+    justify-content: center;
+    background-color: #d8e5e5;
+    margin-top: 20px;
+    width: 80%;
+    /* cursor: all-scroll; */
+    /* scroll-behavior: initial; */
+    height: 200px;
+    overflow: scroll;
+    font-size: 14px;
+    /* padding: 6px; */
+    padding-left: 6px;
+    background-attachment: scroll
+}
